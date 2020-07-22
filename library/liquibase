@@ -1,0 +1,7 @@
+Maintainers: Robert Reeves <r2@liquibase.com> (@r2liquibase)
+GitRepo: https://github.com/liquibase/docker.git
+
+Tags: 3.10.x, latest
+GitFetch: refs/heads/main
+GitCommit: e1a3214b9003b2e461c81691010ddcfc8f66cdc0
+Directory: .
