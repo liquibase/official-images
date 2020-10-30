@@ -3,12 +3,12 @@ GitRepo: https://github.com/liquibase/docker.git
 
 Tags: latest
 GitFetch: refs/heads/main
-GitCommit: 0f785f8e8198f7b13716bc5acab96d5e998963f6
+GitCommit: 51fa00e26cecd5c1c4b3a29a50e6663cc37e2439
 Directory: .
 
 Tags: 4.1, 4.1.1
 GitFetch: refs/heads/main
-GitCommit: 0f785f8e8198f7b13716bc5acab96d5e998963f6
+GitCommit: 51fa00e26cecd5c1c4b3a29a50e6663cc37e2439
 Directory: .
 
 Tags: 3.10, 3.10.3
