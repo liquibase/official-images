@@ -1,12 +1,12 @@
-Maintainers: Robert Reeves <docker@liquibase.com> (@r2liquibase)
+Maintainers: Jake Newton <docker@liquibase.com> (@jnewton03)
 GitRepo: https://github.com/liquibase/docker.git
 
 Tags: latest
 GitFetch: refs/heads/main
-GitCommit: 21ec657659c3a34a912ba26417e5675e298bafed
+GitCommit: 7955aca4a90d3953a5f7477b67becced82522dfc
 Directory: .
 
-Tags: 4.3, 4.3.1
+Tags: 4.21, 4.21.1
 GitFetch: refs/heads/main
-GitCommit: 21ec657659c3a34a912ba26417e5675e298bafed
+GitCommit: 7955aca4a90d3953a5f7477b67becced82522dfc
 Directory: .
