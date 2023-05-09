@@ -1,26 +1,40 @@
-# this file is generated via https://github.com/docker-library/gcc/blob/7f1fc5e8be598446b2546b808572db546e959643/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/gcc/blob/00b26e718cb2a42fca77676383917c1e5c15b6ca/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/gcc.git
 
-# Last Modified: 2020-07-23
-Tags: 10.2.0, 10.2, 10, latest
+# Last Modified: 2023-04-26
+Tags: 13.1.0, 13.1, 13, latest, 13.1.0-bookworm, 13.1-bookworm, 13-bookworm, bookworm
 Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 36c1ff6d7b44428b35fa8b61787c76b225d8184a
+GitCommit: 46628bc0702798f6ff9f923650361f46f9eb2af2
+Directory: 13
+# Docker EOL: 2024-10-26
+
+# Last Modified: 2022-08-19
+Tags: 12.2.0, 12.2, 12, 12.2.0-bullseye, 12.2-bullseye, 12-bullseye
+Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
+GitCommit: 46628bc0702798f6ff9f923650361f46f9eb2af2
+Directory: 12
+# Docker EOL: 2024-02-19
+
+# Last Modified: 2022-04-21
+Tags: 11.3.0, 11.3, 11, 11.3.0-bullseye, 11.3-bullseye, 11-bullseye
+Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
+GitCommit: 46628bc0702798f6ff9f923650361f46f9eb2af2
+Directory: 11
+# Docker EOL: 2023-10-21
+
+# Last Modified: 2022-06-28
+Tags: 10.4.0, 10.4, 10, 10.4.0-bullseye, 10.4-bullseye, 10-bullseye
+Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
+GitCommit: 46628bc0702798f6ff9f923650361f46f9eb2af2
 Directory: 10
-# Docker EOL: 2022-01-23
+# Docker EOL: 2023-12-28
 
-# Last Modified: 2020-03-12
-Tags: 9.3.0, 9.3, 9
+# Last Modified: 2022-05-27
+Tags: 9.5.0, 9.5, 9, 9.5.0-bullseye, 9.5-bullseye, 9-bullseye
 Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 05aef2fc627328e12bbf77aca44fd399a22c7fc4
+GitCommit: 46628bc0702798f6ff9f923650361f46f9eb2af2
 Directory: 9
-# Docker EOL: 2021-09-12
-
-# Last Modified: 2020-03-04
-Tags: 8.4.0, 8.4, 8
-Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 05aef2fc627328e12bbf77aca44fd399a22c7fc4
-Directory: 8
-# Docker EOL: 2021-09-04
+# Docker EOL: 2023-11-27

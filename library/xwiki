@@ -1,39 +1,33 @@
-# MySQL is not officially supported for arm64v8.
-# Ongoing issue for the same is: https://github.com/docker-library/mysql/issues/318
-# We don't support arm64v8 FTM for XWiki 10.x since that requires Java 11 and XWiki 10.x doesn't support Java 11.
 Maintainers: XWiki Core Dev Team <committers@xwiki.org> (@xwiki)
 GitRepo: https://github.com/xwiki-contrib/docker-xwiki.git
 
-Tags: 13, 13.0, 13.0.0, 13-mysql-tomcat, 13.0-mysql-tomcat, 13.0.0-mysql-tomcat, mysql-tomcat, stable-mysql-tomcat, stable-mysql, stable, latest
-Architectures: amd64
-Directory: 13/mysql-tomcat
-GitCommit: 828bca87e2fc95c7942b1f9c1ccd0b9cc2721b95
-
-Tags: 13-postgres-tomcat, 13.0-postgres-tomcat, 13.0.0-postgres-tomcat, postgres-tomcat, stable-postgres-tomcat, stable-postgres
+Tags: 15, 15.3, 15.3.0, 15-mysql-tomcat, 15.3-mysql-tomcat, 15.3.0-mysql-tomcat, mysql-tomcat, stable-mysql-tomcat, stable-mysql, stable, latest
 Architectures: amd64, arm64v8
-Directory: 13/postgres-tomcat
-GitCommit: 828bca87e2fc95c7942b1f9c1ccd0b9cc2721b95
+Directory: 15/mysql-tomcat
+GitCommit: 435c3ef09c3f34fab61a8d5804a6170d0dc21f44
 
-Tags: 12, 12.10, 12.10.3, 12-mysql-tomcat, 12.10-mysql-tomcat, 12.10.3-mysql-tomcat, lts-mysql-tomcat, lts-mysql, lts
-Architectures: amd64
-Directory: 12/mysql-tomcat
-GitCommit: be6a716da83415a667296f8b28706bd59adc9c8b
-
-Tags: 12-postgres-tomcat, 12.10-postgres-tomcat, 12.10.3-postgres-tomcat, lts-postgres-tomcat, lts-postgres
+Tags: 15-postgres-tomcat, 15.3-postgres-tomcat, 15.3.0-postgres-tomcat, postgres-tomcat, stable-postgres-tomcat, stable-postgres
 Architectures: amd64, arm64v8
-Directory: 12/postgres-tomcat
-GitCommit: be6a716da83415a667296f8b28706bd59adc9c8b
+Directory: 15/postgres-tomcat
+GitCommit: 435c3ef09c3f34fab61a8d5804a6170d0dc21f44
 
-# This tag description should be removed once the XWiki 12.x LTS is out
-Tags: 12.6, 12.6.7, 12.6-mysql-tomcat, 12.6.7-mysql-tomcat
-Architectures: amd64
-Directory: 12/mysql-tomcat
-GitCommit: b0cf482e10e8b0507122ce654f5a7d660063620f
-GitFetch: refs/heads/stable-12.6.x
-
-# This tag description should be removed once the XWiki 12.x LTS is out
-Tags: 12.6-postgres-tomcat, 12.6.7-postgres-tomcat
+Tags: 15-mariadb-tomcat, 15.3-mariadb-tomcat, 15.3.0-mariadb-tomcat, mariadb-tomcat, stable-mariadb-tomcat, stable-mariadb
 Architectures: amd64, arm64v8
-Directory: 12/postgres-tomcat
-GitCommit: b0cf482e10e8b0507122ce654f5a7d660063620f
-GitFetch: refs/heads/stable-12.6.x
+Directory: 15/mariadb-tomcat
+GitCommit: 435c3ef09c3f34fab61a8d5804a6170d0dc21f44
+
+# LTS
+Tags: 14, 14.10, 14.10.9, 14-mysql-tomcat, 14.10-mysql-tomcat, 14.10.9-mysql-tomcat, lts-mysql-tomcat, lts-mysql, lts
+Architectures: amd64, arm64v8
+Directory: 14/mysql-tomcat
+GitCommit: 3bc0c850d5d1f0f66e6f6bbe07561fe0a2c1132c
+
+Tags: 14-postgres-tomcat, 14.10-postgres-tomcat, 14.10.9-postgres-tomcat, lts-postgres-tomcat, lts-postgres
+Architectures: amd64, arm64v8
+Directory: 14/postgres-tomcat
+GitCommit: 3bc0c850d5d1f0f66e6f6bbe07561fe0a2c1132c
+
+Tags: 14-mariadb-tomcat, 14.10-mariadb-tomcat, 14.10.9-mariadb-tomcat, lts-mariadb-tomcat, lts-mariadb
+Architectures: amd64, arm64v8
+Directory: 14/mariadb-tomcat
+GitCommit: 3bc0c850d5d1f0f66e6f6bbe07561fe0a2c1132c

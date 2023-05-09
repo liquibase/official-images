@@ -1,24 +1,45 @@
-# this file is generated via https://github.com/rust-lang-nursery/docker-rust/blob/a035f6fa1f14754bab8f34376c386fafc831b652/x.py
+# this file is generated via https://github.com/rust-lang/docker-rust/blob/35579d26bda862c00d127d63cee4ab9cd5d114c2/x.py
 
 Maintainers: Steven Fackler <sfackler@gmail.com> (@sfackler)
-GitRepo: https://github.com/rust-lang-nursery/docker-rust.git
+GitRepo: https://github.com/rust-lang/docker-rust.git
 
-Tags: 1-buster, 1.49-buster, 1.49.0-buster, buster, 1, 1.49, 1.49.0, latest
+Tags: 1-buster, 1.69-buster, 1.69.0-buster, buster
 Architectures: amd64, arm32v7, arm64v8, i386
-GitCommit: a035f6fa1f14754bab8f34376c386fafc831b652
-Directory: 1.49.0/buster
+GitCommit: 35579d26bda862c00d127d63cee4ab9cd5d114c2
+Directory: 1.69.0/buster
 
-Tags: 1-slim-buster, 1.49-slim-buster, 1.49.0-slim-buster, slim-buster, 1-slim, 1.49-slim, 1.49.0-slim, slim
+Tags: 1-slim-buster, 1.69-slim-buster, 1.69.0-slim-buster, slim-buster
 Architectures: amd64, arm32v7, arm64v8, i386
-GitCommit: a035f6fa1f14754bab8f34376c386fafc831b652
-Directory: 1.49.0/buster/slim
+GitCommit: 35579d26bda862c00d127d63cee4ab9cd5d114c2
+Directory: 1.69.0/buster/slim
 
-Tags: 1-alpine3.11, 1.49-alpine3.11, 1.49.0-alpine3.11, alpine3.11
-Architectures: amd64, arm64v8
-GitCommit: a035f6fa1f14754bab8f34376c386fafc831b652
-Directory: 1.49.0/alpine3.11
+Tags: 1-bullseye, 1.69-bullseye, 1.69.0-bullseye, bullseye, 1, 1.69, 1.69.0, latest
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 35579d26bda862c00d127d63cee4ab9cd5d114c2
+Directory: 1.69.0/bullseye
 
-Tags: 1-alpine3.12, 1.49-alpine3.12, 1.49.0-alpine3.12, alpine3.12, 1-alpine, 1.49-alpine, 1.49.0-alpine, alpine
+Tags: 1-slim-bullseye, 1.69-slim-bullseye, 1.69.0-slim-bullseye, slim-bullseye, 1-slim, 1.69-slim, 1.69.0-slim, slim
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 35579d26bda862c00d127d63cee4ab9cd5d114c2
+Directory: 1.69.0/bullseye/slim
+
+Tags: 1-bookworm, 1.69-bookworm, 1.69.0-bookworm, bookworm
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 35579d26bda862c00d127d63cee4ab9cd5d114c2
+Directory: 1.69.0/bookworm
+
+Tags: 1-slim-bookworm, 1.69-slim-bookworm, 1.69.0-slim-bookworm, slim-bookworm
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 35579d26bda862c00d127d63cee4ab9cd5d114c2
+Directory: 1.69.0/bookworm/slim
+
+Tags: 1-alpine3.16, 1.69-alpine3.16, 1.69.0-alpine3.16, alpine3.16
 Architectures: amd64, arm64v8
-GitCommit: a035f6fa1f14754bab8f34376c386fafc831b652
-Directory: 1.49.0/alpine3.12
+GitCommit: 35579d26bda862c00d127d63cee4ab9cd5d114c2
+Directory: 1.69.0/alpine3.16
+
+Tags: 1-alpine3.17, 1.69-alpine3.17, 1.69.0-alpine3.17, alpine3.17, 1-alpine, 1.69-alpine, 1.69.0-alpine, alpine
+Architectures: amd64, arm64v8
+GitCommit: 35579d26bda862c00d127d63cee4ab9cd5d114c2
+Directory: 1.69.0/alpine3.17
+

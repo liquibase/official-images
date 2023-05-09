@@ -1,13 +1,15 @@
-# this file is generated via https://github.com/docker-library/kibana/blob/2ec5f3641bcc93b9a8066f19b42630b4e8d570c7/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/kibana/blob/094d900939e2a66300d48cbf2f3a8e0fc1d51abc/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/kibana.git
 
-Tags: 7.10.1
-GitCommit: 87f688d33b13dfb010749eae424f273e7a10ec95
-Directory: 7
+Tags: 8.7.1
+Architectures: amd64, arm64v8
+GitCommit: e577f15420a471649acd96a337cf5f575924a18f
+Directory: 8
 
-Tags: 6.8.13
-GitCommit: fc4b5ff0a085e951ea59036fc358f669fd3c437a
-Directory: 6
+Tags: 7.17.10
+Architectures: amd64, arm64v8
+GitCommit: 6dc8cf4590a7259135398fe84648b76fdb79ac2e
+Directory: 7

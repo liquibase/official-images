@@ -1,10 +1,13 @@
 Maintainers: Frank Celler <info@arangodb.com> (@fceller), Wilfried Goesgens <w.goesgens@arangodb.org> (@dothebart), Vadim Kondratyev <vadim@arangodb.org> (@KVS85)
 GitRepo: https://github.com/arangodb/arangodb-docker
+GitFetch: refs/heads/official
 
-Tags: 3.6, 3.6.11
-GitCommit: d32ec8d7fe707c1a6f31739c783702ba7275ddc2
-Directory: alpine/3.6.11
+Tags: 3.9, 3.9.10
+Architectures: amd64
+GitCommit: 04479ca0b7f52b6f23f3739eae6994f4875990f2
+Directory: alpine/3.9.10
 
-Tags: 3.7, 3.7.6, latest
-GitCommit: 9cc734449144648a9d1b5b029fd3a72e635897b7
-Directory: alpine/3.7.6
+Tags: 3.10, 3.10.6, latest
+Architectures: amd64, arm64v8
+GitCommit: a33b50b8a5c9a60f8c812016899485cc9cd78de3
+Directory: alpine/3.10.6

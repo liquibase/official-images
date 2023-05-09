@@ -2,17 +2,16 @@
 
 Maintainers: Santiago Torres-Arias <santiago@archlinux.org> (@SantiagoTorres),
              Christian Rebischke <Chris.Rebischke@archlinux.org> (@shibumi),
-             Pierre Schmitz <pierre@archlinux.de> (@pierres),
              Justin Kromlinger <hashworks@archlinux.org> (@hashworks)
 GitRepo: https://gitlab.archlinux.org/archlinux/archlinux-docker.git
 
-Tags: latest, base, base-20210207.0.15200
-GitCommit: da774f3f2e47e1e647ad13fa7e617cea1b94df4b
-GitFetch: refs/tags/v20210207.0.15200
+Tags: latest, base, base-20230507.0.148551
+GitCommit: a4485766c3fd1502a512a724f7a3620cf5693c5a
+GitFetch: refs/tags/v20230507.0.148551
 File: Dockerfile.base
 
-Tags: base-devel, base-devel-20210207.0.15200
-GitCommit: da774f3f2e47e1e647ad13fa7e617cea1b94df4b
-GitFetch: refs/tags/v20210207.0.15200
+Tags: base-devel, base-devel-20230507.0.148551
+GitCommit: a4485766c3fd1502a512a724f7a3620cf5693c5a
+GitFetch: refs/tags/v20230507.0.148551
 File: Dockerfile.base-devel
 
