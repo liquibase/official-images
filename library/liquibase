@@ -3,10 +3,10 @@ GitRepo: https://github.com/liquibase/docker.git
 
 Tags: latest, latest-alpine
 GitFetch: refs/heads/main
-GitCommit: ef1499d3e71417552f5e2a6b1a28bca77c1141f3
+GitCommit: 838c2b21806320fbb0118b21a34f140064301d10
 Directory: .
 
 Tags: 4.23, 4.23.1, 4.23-alpine, 4.23.1-alpine
 GitFetch: refs/heads/main
-GitCommit: ef1499d3e71417552f5e2a6b1a28bca77c1141f3
+GitCommit: 838c2b21806320fbb0118b21a34f140064301d10
 Directory: .
