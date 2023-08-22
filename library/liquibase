@@ -1,12 +1,12 @@
 Maintainers: Jake Newton <docker@liquibase.com> (@jnewton03)
 GitRepo: https://github.com/liquibase/docker.git
 
-Tags: latest
+Tags: latest, latest-alpine
 GitFetch: refs/heads/main
-GitCommit: 7955aca4a90d3953a5f7477b67becced82522dfc
+GitCommit: ef1499d3e71417552f5e2a6b1a28bca77c1141f3
 Directory: .
 
-Tags: 4.21, 4.21.1
+Tags: 4.23, 4.23.1, 4.23-alpine, 4.23.1-alpine
 GitFetch: refs/heads/main
-GitCommit: 7955aca4a90d3953a5f7477b67becced82522dfc
+GitCommit: ef1499d3e71417552f5e2a6b1a28bca77c1141f3
 Directory: .
