@@ -2,7 +2,10 @@
 Maintainers: Miguel Moquillon <miguel.moquillon@silverpeas.org> (@mmoqui)
 GitRepo: https://github.com/Silverpeas/docker-silverpeas-prod.git
 
-Tags: 6.3.5, latest
+Tags: 6.4.1, latest
+GitCommit: 54368db3f823b6ced026297c058973eabad1e930
+GitFetch: refs/heads/6.4.x
+
+Tags: 6.3.5
 GitCommit: 126477050a7890b45fd57eebe471bfdcff20643d
 GitFetch: refs/heads/6.3.x
-
