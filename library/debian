@@ -4,137 +4,169 @@
 Maintainers: Tianon Gravi <tianon@debian.org> (@tianon),
              Paul Tagliamonte <paultag@debian.org> (@paultag)
 GitRepo: https://github.com/debuerreotype/docker-debian-artifacts.git
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-amd64
 amd64-GitFetch: refs/heads/dist-amd64
-amd64-GitCommit: a6805afee173140046c0f4cd6a1a46ad2870e2ea
+amd64-GitCommit: cdcd78f9d7c549833f878eff31111a2e2da7ba4d
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-arm32v5
 arm32v5-GitFetch: refs/heads/dist-arm32v5
-arm32v5-GitCommit: 3f58e05e924bb2e2265d4629332dda6b563727d6
+arm32v5-GitCommit: 50db7646baa478e9acea6537296e8d9f487db768
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-arm32v7
 arm32v7-GitFetch: refs/heads/dist-arm32v7
-arm32v7-GitCommit: e608650be05052dd84fbfd3ac05bbcb11292dac0
+arm32v7-GitCommit: addd379a177a890b581f3f16016f8f1ae4a90ed8
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-arm64v8
 arm64v8-GitFetch: refs/heads/dist-arm64v8
-arm64v8-GitCommit: 4d0f0152c67dd65cdcca5a2cbacc7b9186601989
+arm64v8-GitCommit: b2cc8f229fa1a22abaf52092366ac88b46514731
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-i386
 i386-GitFetch: refs/heads/dist-i386
-i386-GitCommit: d0ef11958338eb2b7dfac36df459c0b796fb235b
+i386-GitCommit: c7aa3e67d1cacafbbd3636870a4a397cc5293dd9
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-mips64le
 mips64le-GitFetch: refs/heads/dist-mips64le
-mips64le-GitCommit: f948b7bea7b4e130e51cbf56e79bb08dbf867e2d
+mips64le-GitCommit: a2d155bf989b1fdb5e1410b38a4506c27d2724cd
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-ppc64le
 ppc64le-GitFetch: refs/heads/dist-ppc64le
-ppc64le-GitCommit: 43291db5a828fe745706eedc2a3c642551a0ca02
+ppc64le-GitCommit: 6f5c4d12cdbf912d4c48e9142ca7a62d39755756
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-riscv64
 riscv64-GitFetch: refs/heads/dist-riscv64
-riscv64-GitCommit: 62c596db11129a419b249cc152a9b98f2b07a0a6
+riscv64-GitCommit: c614498c9ec681067a00d567f1fb15e387791fc4
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-s390x
 s390x-GitFetch: refs/heads/dist-s390x
-s390x-GitCommit: 3986ef6c2876d5e43c8a30a0f7695f735d0a13ed
+s390x-GitCommit: 94d96bdd66cd59f2d2d0a8e2f2811a0b14633ad9
 
-# bookworm -- Debian 12.6 Released 29 June 2024
-Tags: bookworm, bookworm-20240701, 12.6, 12, latest
+# bookworm -- Debian 12.9 Released 11 January 2025
+Tags: bookworm, bookworm-20250113, 12.9, 12, latest
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: bookworm
+Builder: oci-import
+Directory: bookworm/oci
+File: index.json
 
 Tags: bookworm-backports
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
 Directory: bookworm/backports
 
-Tags: bookworm-slim, bookworm-20240701-slim, 12.6-slim, 12-slim
+Tags: bookworm-slim, bookworm-20250113-slim, 12.9-slim, 12-slim
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: bookworm/slim
+Builder: oci-import
+Directory: bookworm/slim/oci
+File: index.json
 
-# bullseye -- Debian 11.10 Released 29 June 2024
-Tags: bullseye, bullseye-20240701, 11.10, 11
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: bullseye
+# bullseye -- Debian 11.11 Released 31 August 2024
+Tags: bullseye, bullseye-20250113, 11.11, 11
+Architectures: amd64, arm32v7, arm64v8, i386
+Builder: oci-import
+Directory: bullseye/oci
+File: index.json
 
 Tags: bullseye-backports
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+Architectures: amd64, arm32v7, arm64v8, i386
 Directory: bullseye/backports
 
-Tags: bullseye-slim, bullseye-20240701-slim, 11.10-slim, 11-slim
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: bullseye/slim
+Tags: bullseye-slim, bullseye-20250113-slim, 11.11-slim, 11-slim
+Architectures: amd64, arm32v7, arm64v8, i386
+Builder: oci-import
+Directory: bullseye/slim/oci
+File: index.json
 
 # experimental -- Experimental packages - not released; use at your own risk.
-Tags: experimental, experimental-20240701
+Tags: experimental, experimental-20250113
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
 Directory: experimental
 
-# oldstable -- Debian 11.10 Released 29 June 2024
-Tags: oldstable, oldstable-20240701
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: oldstable
+# oldstable -- Debian 11.11 Released 31 August 2024
+Tags: oldstable, oldstable-20250113
+Architectures: amd64, arm32v7, arm64v8, i386
+Builder: oci-import
+Directory: oldstable/oci
+File: index.json
 
 Tags: oldstable-backports
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+Architectures: amd64, arm32v7, arm64v8, i386
 Directory: oldstable/backports
 
-Tags: oldstable-slim, oldstable-20240701-slim
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: oldstable/slim
+Tags: oldstable-slim, oldstable-20250113-slim
+Architectures: amd64, arm32v7, arm64v8, i386
+Builder: oci-import
+Directory: oldstable/slim/oci
+File: index.json
 
 # rc-buggy -- Experimental packages - not released; use at your own risk.
-Tags: rc-buggy, rc-buggy-20240701
+Tags: rc-buggy, rc-buggy-20250113
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
 Directory: rc-buggy
 
 # sid -- Debian x.y Unstable - Not Released
-Tags: sid, sid-20240701
+Tags: sid, sid-20250113
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
-Directory: sid
+Builder: oci-import
+Directory: sid/oci
+File: index.json
 
-Tags: sid-slim, sid-20240701-slim
+Tags: sid-slim, sid-20250113-slim
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
-Directory: sid/slim
+Builder: oci-import
+Directory: sid/slim/oci
+File: index.json
 
-# stable -- Debian 12.6 Released 29 June 2024
-Tags: stable, stable-20240701
+# stable -- Debian 12.9 Released 11 January 2025
+Tags: stable, stable-20250113
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: stable
+Builder: oci-import
+Directory: stable/oci
+File: index.json
 
 Tags: stable-backports
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
 Directory: stable/backports
 
-Tags: stable-slim, stable-20240701-slim
+Tags: stable-slim, stable-20250113-slim
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: stable/slim
+Builder: oci-import
+Directory: stable/slim/oci
+File: index.json
 
 # testing -- Debian x.y Testing distribution - Not Released
-Tags: testing, testing-20240701
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: testing
+Tags: testing, testing-20250113
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
+Builder: oci-import
+Directory: testing/oci
+File: index.json
 
 Tags: testing-backports
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
 Directory: testing/backports
 
-Tags: testing-slim, testing-20240701-slim
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: testing/slim
+Tags: testing-slim, testing-20250113-slim
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
+Builder: oci-import
+Directory: testing/slim/oci
+File: index.json
 
 # trixie -- Debian x.y Testing distribution - Not Released
-Tags: trixie, trixie-20240701
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: trixie
+Tags: trixie, trixie-20250113
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
+Builder: oci-import
+Directory: trixie/oci
+File: index.json
 
 Tags: trixie-backports
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
 Directory: trixie/backports
 
-Tags: trixie-slim, trixie-20240701-slim
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-Directory: trixie/slim
+Tags: trixie-slim, trixie-20250113-slim
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
+Builder: oci-import
+Directory: trixie/slim/oci
+File: index.json
 
 # unstable -- Debian x.y Unstable - Not Released
-Tags: unstable, unstable-20240701
+Tags: unstable, unstable-20250113
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
-Directory: unstable
+Builder: oci-import
+Directory: unstable/oci
+File: index.json
 
-Tags: unstable-slim, unstable-20240701-slim
+Tags: unstable-slim, unstable-20250113-slim
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
-Directory: unstable/slim
+Builder: oci-import
+Directory: unstable/slim/oci
+File: index.json

@@ -1,35 +1,50 @@
-# this file is generated via https://github.com/docker-library/redmine/blob/16d3e00e73ce4ab0173b931f04dce5117d696211/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/redmine/blob/f18c3977c16a9c404017a5dc924720eedbf34c78/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/redmine.git
 
-Tags: 5.1.3, 5.1, 5, latest, 5.1.3-bookworm, 5.1-bookworm, 5-bookworm, bookworm
+Tags: 6.0.2, 6.0, 6, latest, 6.0.2-bookworm, 6.0-bookworm, 6-bookworm, bookworm
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: f44d7a06e867841594aaaf45fddf59a77fad5337
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
+Directory: 6.0/bookworm
+
+Tags: 6.0.2-alpine3.21, 6.0-alpine3.21, 6-alpine3.21, alpine3.21, 6.0.2-alpine, 6.0-alpine, 6-alpine, alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
+Directory: 6.0/alpine3.21
+
+Tags: 6.0.2-alpine3.20, 6.0-alpine3.20, 6-alpine3.20, alpine3.20
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
+Directory: 6.0/alpine3.20
+
+Tags: 5.1.5, 5.1, 5, 5.1.5-bookworm, 5.1-bookworm, 5-bookworm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
 Directory: 5.1/bookworm
 
-Tags: 5.1.3-alpine3.20, 5.1-alpine3.20, 5-alpine3.20, alpine3.20, 5.1.3-alpine, 5.1-alpine, 5-alpine, alpine
+Tags: 5.1.5-alpine3.21, 5.1-alpine3.21, 5-alpine3.21, 5.1.5-alpine, 5.1-alpine, 5-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
-GitCommit: f44d7a06e867841594aaaf45fddf59a77fad5337
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
+Directory: 5.1/alpine3.21
+
+Tags: 5.1.5-alpine3.20, 5.1-alpine3.20, 5-alpine3.20
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
 Directory: 5.1/alpine3.20
 
-Tags: 5.1.3-alpine3.19, 5.1-alpine3.19, 5-alpine3.19, alpine3.19
-Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: f44d7a06e867841594aaaf45fddf59a77fad5337
-Directory: 5.1/alpine3.19
-
-Tags: 5.0.9, 5.0, 5.0.9-bookworm, 5.0-bookworm
+Tags: 5.0.10, 5.0, 5.0.10-bookworm, 5.0-bookworm
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: f44d7a06e867841594aaaf45fddf59a77fad5337
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
 Directory: 5.0/bookworm
 
-Tags: 5.0.9-alpine3.20, 5.0-alpine3.20, 5.0.9-alpine, 5.0-alpine
+Tags: 5.0.10-alpine3.21, 5.0-alpine3.21, 5.0.10-alpine, 5.0-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
-GitCommit: f44d7a06e867841594aaaf45fddf59a77fad5337
-Directory: 5.0/alpine3.20
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
+Directory: 5.0/alpine3.21
 
-Tags: 5.0.9-alpine3.19, 5.0-alpine3.19
-Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: f44d7a06e867841594aaaf45fddf59a77fad5337
-Directory: 5.0/alpine3.19
+Tags: 5.0.10-alpine3.20, 5.0-alpine3.20
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: b160f7adabeb4216193103061c576210c8ca6674
+Directory: 5.0/alpine3.20

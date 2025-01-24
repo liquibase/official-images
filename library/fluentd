@@ -3,13 +3,27 @@ Maintainers: Masahiro Nakagawa <repeatedly@gmail.com> (@repeatedly),
 GitRepo: https://github.com/fluent/fluentd-docker-image.git
 
 # Alpine images
-Tags: v1.16.2-1.1, v1.16-1, latest
+Tags: v1.16.6-1.0, v1.16-1
 Architectures: amd64, arm32v6, arm64v8, i386, ppc64le, s390x
-GitCommit: a4dd65768ec1819574e570716955276c9089326a
+GitFetch: refs/heads/v1.16
+GitCommit: ddb5019b433339f9eef991ca373445deb6e4d2b1
 Directory: v1.16/alpine
 
 # Debian images
-Tags: v1.16.2-debian-1.1, v1.16-debian-1
+Tags: v1.16.6-debian-1.0, v1.16-debian-1
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: a4dd65768ec1819574e570716955276c9089326a
+GitFetch: refs/heads/v1.16
+GitCommit: ddb5019b433339f9eef991ca373445deb6e4d2b1
 Directory: v1.16/debian
+
+# Alpine images
+Tags: v1.18.0-1.0, v1.18-1, latest
+Architectures: amd64, arm32v6, arm64v8, i386, ppc64le, s390x
+GitCommit: 0c3c82df3ec08a46ba346e53c4644cfc667dc703
+Directory: v1.18/alpine
+
+# Debian images
+Tags: v1.18.0-debian-1.0, v1.18-debian-1
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
+GitCommit: 0c3c82df3ec08a46ba346e53c4644cfc667dc703
+Directory: v1.18/debian
