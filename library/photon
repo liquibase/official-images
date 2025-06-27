@@ -1,28 +1,27 @@
-# this file is generated via https://github.com/vmware/photon-docker-image/blob/7daed48579f09439e736aba7795b12b119862e2a/generate-stackbrew-library.sh
-Maintainers: Fabio Rapposelli <fabio@vmware.com> (@frapposelli),
-             Michelle Wang <michellew@vmware.com> (@michellew),
+# this file is generated via https://github.com/vmware/photon-docker-image/blob/c48f588cebc54dba10db21c75d4354a03fa6ebc2/generate-stackbrew-library.sh
+Maintainers: Michelle Wang <michellew@vmware.com> (@michellew),
              Alexey Makhalov <amakhalov@vmware.com> (@YustasSwamp)
 GitRepo: https://github.com/vmware/photon-docker-image.git
 Directory: docker
 
 
-Tags: 5.0, 5.0-20250105, latest
+Tags: 5.0, 5.0-20250617, latest
 Architectures: amd64, arm64v8
-GitFetch: refs/heads/x86_64/5.0-20250105
-GitCommit: 8cf662232434dbda4abc7a715f6049cb64c0d645
-arm64v8-GitFetch: refs/heads/aarch64/5.0-20250105
-arm64v8-GitCommit: 0bda48de7c43729600e98770e41124605ee88e3d
+GitFetch: refs/heads/x86_64/5.0-20250617
+GitCommit: d804fe9bb9514bca6a7fa885538e269f2caade73
+arm64v8-GitFetch: refs/heads/aarch64/5.0-20250617
+arm64v8-GitCommit: 3501c5eab0339179c221be3f8b92485f6eef28f9
 
-Tags: 4.0, 4.0-20250119
+Tags: 4.0, 4.0-20250518
 Architectures: amd64, arm64v8
-GitFetch: refs/heads/x86_64/4.0-20250119
-GitCommit: a33460d315cb79df67b055c2d20c58b0ce12a989
-arm64v8-GitFetch: refs/heads/aarch64/4.0-20250119
-arm64v8-GitCommit: 4e68753f7cc1397095de07aa1dddf4731d106b56
+GitFetch: refs/heads/x86_64/4.0-20250518
+GitCommit: 0b2ace4fa57bbd1d03b60915156c9d357bcbe698
+arm64v8-GitFetch: refs/heads/aarch64/4.0-20250518
+arm64v8-GitCommit: 6bf7985b185a9251837efb412a027bdf60afbd40
 
-Tags: 3.0, 3.0-20241209
+Tags: 3.0, 3.0-20250316
 Architectures: amd64, arm64v8
-GitFetch: refs/heads/x86_64/3.0-20241209
-GitCommit: 8ae627dc9c6e074b0bc9b14dff7b97c2946e6a66
-arm64v8-GitFetch: refs/heads/aarch64/3.0-20241209
-arm64v8-GitCommit: 241b9cedbc3ee99b17a5f65cc679df81df2145a4
+GitFetch: refs/heads/x86_64/3.0-20250316
+GitCommit: f848d5df815c0afe76b42a608d49df0e87af51c2
+arm64v8-GitFetch: refs/heads/aarch64/3.0-20250316
+arm64v8-GitCommit: 93a0c62b9b7790fc27d1413f65073ef1a2894bab

@@ -3,34 +3,56 @@ Maintainers: Jenny Owen <jenny.owen@neo4j.com> (@jennyowen),
              Tobias Ericsson <tobias.ericsson@neo4j.com> (@neo-tobias)
 GitRepo: https://github.com/neo4j/docker-neo4j-publish.git
 
-Tags: 5.26.1-community-bullseye, 5.26-community-bullseye, 5-community-bullseye, 5.26.1-community, 5.26-community, 5-community, 5.26.1-bullseye, 5.26-bullseye, 5-bullseye, 5.26.1, 5.26, 5, community-bullseye, community, bullseye, latest
+Tags: 2025.05.1-community-bullseye, 2025.05-community-bullseye, 2025-community-bullseye, 2025.05.1-community, 2025.05-community, 2025-community, 2025.05.1-bullseye, 2025.05-bullseye, 2025-bullseye, 2025.05.1, 2025.05, 2025, community-bullseye, community, bullseye, latest
 Architectures: amd64, arm64v8
-GitCommit: 15a7d481053aba3bb3b03a00f5d29bf2832f4c11
-Directory: 5.26.1/bullseye/community
+GitCommit: 63f027854864eb65446d7b4996ebf4eabf597174
+Directory: 2025.05.1/bullseye/community
 
-Tags: 5.26.1-enterprise-bullseye, 5.26-enterprise-bullseye, 5-enterprise-bullseye, 5.26.1-enterprise, 5.26-enterprise, 5-enterprise, enterprise-bullseye, enterprise
+Tags: 2025.05.1-enterprise-bullseye, 2025.05-enterprise-bullseye, 2025-enterprise-bullseye, 2025.05.1-enterprise, 2025.05-enterprise, 2025-enterprise, enterprise-bullseye, enterprise
 Architectures: amd64, arm64v8
-GitCommit: 15a7d481053aba3bb3b03a00f5d29bf2832f4c11
-Directory: 5.26.1/bullseye/enterprise
+GitCommit: 63f027854864eb65446d7b4996ebf4eabf597174
+Directory: 2025.05.1/bullseye/enterprise
 
-Tags: 5.26.1-community-ubi9, 5.26-community-ubi9, 5-community-ubi9, 5.26.1-ubi9, 5.26-ubi9, 5-ubi9, community-ubi9, ubi9
+Tags: 2025.05.1-community-ubi9, 2025.05-community-ubi9, 2025-community-ubi9, 2025.05.1-ubi9, 2025.05-ubi9, 2025-ubi9, community-ubi9, ubi9
 Architectures: amd64, arm64v8
-GitCommit: 15a7d481053aba3bb3b03a00f5d29bf2832f4c11
-Directory: 5.26.1/ubi9/community
+GitCommit: 63f027854864eb65446d7b4996ebf4eabf597174
+Directory: 2025.05.1/ubi9/community
 
-Tags: 5.26.1-enterprise-ubi9, 5.26-enterprise-ubi9, 5-enterprise-ubi9, enterprise-ubi9
+Tags: 2025.05.1-enterprise-ubi9, 2025.05-enterprise-ubi9, 2025-enterprise-ubi9, enterprise-ubi9
 Architectures: amd64, arm64v8
-GitCommit: 15a7d481053aba3bb3b03a00f5d29bf2832f4c11
-Directory: 5.26.1/ubi9/enterprise
+GitCommit: 63f027854864eb65446d7b4996ebf4eabf597174
+Directory: 2025.05.1/ubi9/enterprise
 
 
 
-Tags: 4.4.40, 4.4.40-community, 4.4, 4.4-community
+Tags: 5.26.8-community-bullseye, 5.26-community-bullseye, 5-community-bullseye, 5.26.8-community, 5.26-community, 5-community, 5.26.8-bullseye, 5.26-bullseye, 5-bullseye, 5.26.8, 5.26, 5
 Architectures: amd64, arm64v8
-GitCommit: b8c0ca2e8dd585e338d74b191a2e370c0da14d92
-Directory: 4.4.40/bullseye/community
+GitCommit: 7bcd74b9f4aaee7a0a271aa0f9b0e9c4723d3280
+Directory: 5.26.8/bullseye/community
 
-Tags: 4.4.40-enterprise, 4.4-enterprise
+Tags: 5.26.8-enterprise-bullseye, 5.26-enterprise-bullseye, 5-enterprise-bullseye, 5.26.8-enterprise, 5.26-enterprise, 5-enterprise
 Architectures: amd64, arm64v8
-GitCommit: b8c0ca2e8dd585e338d74b191a2e370c0da14d92
-Directory: 4.4.40/bullseye/enterprise
+GitCommit: 7bcd74b9f4aaee7a0a271aa0f9b0e9c4723d3280
+Directory: 5.26.8/bullseye/enterprise
+
+Tags: 5.26.8-community-ubi9, 5.26-community-ubi9, 5-community-ubi9, 5.26.8-ubi9, 5.26-ubi9, 5-ubi9
+Architectures: amd64, arm64v8
+GitCommit: 7bcd74b9f4aaee7a0a271aa0f9b0e9c4723d3280
+Directory: 5.26.8/ubi9/community
+
+Tags: 5.26.8-enterprise-ubi9, 5.26-enterprise-ubi9, 5-enterprise-ubi9
+Architectures: amd64, arm64v8
+GitCommit: 7bcd74b9f4aaee7a0a271aa0f9b0e9c4723d3280
+Directory: 5.26.8/ubi9/enterprise
+
+
+
+Tags: 4.4.44, 4.4.44-community, 4.4, 4.4-community
+Architectures: amd64, arm64v8
+GitCommit: a0fc315f717639f19237bffd1ef1b9b4ecab4182
+Directory: 4.4.44/bullseye/community
+
+Tags: 4.4.44-enterprise, 4.4-enterprise
+Architectures: amd64, arm64v8
+GitCommit: a0fc315f717639f19237bffd1ef1b9b4ecab4182
+Directory: 4.4.44/bullseye/enterprise

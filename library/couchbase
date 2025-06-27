@@ -1,40 +1,102 @@
 Maintainers: Couchbase Docker Team <docker@couchbase.com> (@cb-robot)
 GitRepo: https://github.com/couchbase/docker
 
-Tags: 7.6.5, enterprise-7.6.5, enterprise, latest
+Tags: 7.6.6, enterprise, enterprise-7.6.6, latest
+GitCommit: 9ce3cbc835dd4e072943ac7878aa7f87d6b95178
+Directory: enterprise/couchbase-server/7.6.6
+Architectures: amd64, arm64v8
+
+Tags: 7.6.5, enterprise-7.6.5
 GitCommit: ec16abff6f0551ced6c771bd5606a4392379dd31
 Directory: enterprise/couchbase-server/7.6.5
 Architectures: amd64, arm64v8
 
-Tags: community-7.6.2, community
-GitCommit: 34bb6684dc575f4e0b8b0f16127f5d4188015d8d
+Tags: 7.6.4, enterprise-7.6.4
+GitCommit: 9990e2cfabc94b37607e5666d9ef1eab69a397a6
+Directory: enterprise/couchbase-server/7.6.4
+Architectures: amd64, arm64v8
+
+Tags: 7.6.3, enterprise-7.6.3
+GitCommit: 553d1baa4aa90fe506e1d7bcdf4daec387a110fe
+Directory: enterprise/couchbase-server/7.6.3
+Architectures: amd64, arm64v8
+
+Tags: 7.6.2, enterprise-7.6.2
+GitCommit: ce13f602d2c95f76835c67a8855d5e73480973a6
+Directory: enterprise/couchbase-server/7.6.2
+Architectures: amd64, arm64v8
+
+Tags: community, community-7.6.2
+GitCommit: 3f81af158b7f307e42f8c42ceaf7657b2690bfca
 Directory: community/couchbase-server/7.6.2
 Architectures: amd64, arm64v8
 
+Tags: 7.6.1, enterprise-7.6.1
+GitCommit: 966143f937bfe6979b7c09b86684004fdd21e5b8
+Directory: enterprise/couchbase-server/7.6.1
+Architectures: amd64, arm64v8
+
+Tags: community-7.6.1
+GitCommit: a18464c9b23efba391317fd21f898bf64dff6ec1
+Directory: community/couchbase-server/7.6.1
+Architectures: amd64, arm64v8
+
+Tags: 7.6.0, enterprise-7.6.0
+GitCommit: 9bdcf41deedd86da4c71347ffeea350a9895d816
+Directory: enterprise/couchbase-server/7.6.0
+Architectures: amd64, arm64v8
+
+Tags: community-7.6.0
+GitCommit: 6d669d0e34e6990b43c1b91ea74720235c96c4ac
+Directory: community/couchbase-server/7.6.0
+Architectures: amd64, arm64v8
+
+Tags: 7.2.7, enterprise-7.2.7
+GitCommit: 23887cae4fd6ce054f383d524a7975d2e3a6b72e
+Directory: enterprise/couchbase-server/7.2.7
+Architectures: amd64, arm64v8
+
 Tags: 7.2.6, enterprise-7.2.6
-GitCommit: 857d7bcc814e241fd36aa4dc326dcab37e1d1e73
+GitCommit: 181af64dcbedc1abf6e0916d9f5373cf1c18cb6e
 Directory: enterprise/couchbase-server/7.2.6
 Architectures: amd64, arm64v8
 
+Tags: 7.2.5, enterprise-7.2.5
+GitCommit: 94d97d9eea3d4057846be28f319940927d5166cb
+Directory: enterprise/couchbase-server/7.2.5
+Architectures: amd64, arm64v8
+
+Tags: 7.2.4, enterprise-7.2.4
+GitCommit: 15c1c3c0b4717a8b23ef7962f3fde28fe68e4311
+Directory: enterprise/couchbase-server/7.2.4
+Architectures: amd64, arm64v8
+
 Tags: community-7.2.4
-GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
+GitCommit: 7c8453ef8584ff18f7b6c052828758693af4f72c
 Directory: community/couchbase-server/7.2.4
 Architectures: amd64, arm64v8
 
-Tags: 7.1.6, enterprise-7.1.6
-GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
-Directory: enterprise/couchbase-server/7.1.6
+Tags: 7.2.3, enterprise-7.2.3
+GitCommit: b54049418018144369816d18c63d9bf76e34bc9f
+Directory: enterprise/couchbase-server/7.2.3
 Architectures: amd64, arm64v8
 
-Tags: community-7.1.1
-GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
-Directory: community/couchbase-server/7.1.1
+Tags: 7.2.2, enterprise-7.2.2
+GitCommit: 3515fb617a469a5f46d492cf6910dddff8efb825
+Directory: enterprise/couchbase-server/7.2.2
 Architectures: amd64, arm64v8
 
-Tags: 7.0.5, enterprise-7.0.5
-GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
-Directory: enterprise/couchbase-server/7.0.5
+Tags: community-7.2.2
+GitCommit: c7a25ac7f38a81a465aa97f1a1d753a6c579954f
+Directory: community/couchbase-server/7.2.2
+Architectures: amd64, arm64v8
 
-Tags: community-7.0.2
-GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
-Directory: community/couchbase-server/7.0.2
+Tags: 7.2.0, enterprise-7.2.0
+GitCommit: 4e769975179dc4e5bf4138349818bc8a0e191c9f
+Directory: enterprise/couchbase-server/7.2.0
+Architectures: amd64, arm64v8
+
+Tags: community-7.2.0
+GitCommit: 71596d088ce2bc0218418187ac40ffccb08dbc36
+Directory: community/couchbase-server/7.2.0
+Architectures: amd64, arm64v8

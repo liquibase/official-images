@@ -2,65 +2,33 @@ Maintainers: XWiki Core Dev Team <committers@xwiki.org> (@xwiki)
 GitRepo: https://github.com/xwiki-contrib/docker-xwiki.git
 
 # Stable
-Tags: 16, 16.10, 16.10.2, 16-mysql-tomcat, 16.10-mysql-tomcat, 16.10.2-mysql-tomcat, mysql-tomcat, lts-mysql-tomcat, lts-mysql, lts, stable-mysql-tomcat, stable-mysql, stable, latest
+Tags: 17, 17.4, 17.4.1, 17-mysql-tomcat, 17.4-mysql-tomcat, 17.4.1-mysql-tomcat, mysql-tomcat, stable-mysql-tomcat, stable-mysql, stable, latest
+Architectures: amd64, arm64v8
+Directory: 17/mysql-tomcat
+GitCommit: edc5062ac1533654c21f074b65980ea57305c495
+
+Tags: 17-postgres-tomcat, 17.4-postgres-tomcat, 17.4.1-postgres-tomcat, postgres-tomcat, stable-postgres-tomcat, stable-postgres
+Architectures: amd64, arm64v8
+Directory: 17/postgres-tomcat
+GitCommit: edc5062ac1533654c21f074b65980ea57305c495
+
+Tags: 17-mariadb-tomcat, 17.4-mariadb-tomcat, 17.4.1-mariadb-tomcat, mariadb-tomcat, stable-mariadb-tomcat, stable-mariadb
+Architectures: amd64, arm64v8
+Directory: 17/mariadb-tomcat
+GitCommit: edc5062ac1533654c21f074b65980ea57305c495
+
+# LTS
+Tags: 16, 16.10, 16.10.9, 16-mysql-tomcat, 16.10-mysql-tomcat, 16.10.9-mysql-tomcat, lts-mysql-tomcat, lts-mysql, lts
 Architectures: amd64, arm64v8
 Directory: 16/mysql-tomcat
-GitCommit: beed20b75ae4c952be757cec1502151d2d2a7939
+GitCommit: 6a1adf447819ae22156427e3468d1820110cdfb5
 
-Tags: 16-postgres-tomcat, 16.10-postgres-tomcat, 16.10.2-postgres-tomcat, postgres-tomcat, lts-postgres-tomcat, lts-postgres, stable-postgres-tomcat, stable-postgres
+Tags: 16-postgres-tomcat, 16.10-postgres-tomcat, 16.10.9-postgres-tomcat, lts-postgres-tomcat, lts-postgres
 Architectures: amd64, arm64v8
 Directory: 16/postgres-tomcat
-GitCommit: beed20b75ae4c952be757cec1502151d2d2a7939
+GitCommit: 6a1adf447819ae22156427e3468d1820110cdfb5
 
-Tags: 16-mariadb-tomcat, 16.10-mariadb-tomcat, 16.10.2-mariadb-tomcat, mariadb-tomcat, lts-mariadb-tomcat, lts-mariadb, stable-mariadb-tomcat, stable-mariadb
+Tags: 16-mariadb-tomcat, 16.10-mariadb-tomcat, 16.10.9-mariadb-tomcat,  lts-mariadb-tomcat, lts-mariadb
 Architectures: amd64, arm64v8
 Directory: 16/mariadb-tomcat
-GitCommit: beed20b75ae4c952be757cec1502151d2d2a7939
-
-# old LTS
-Tags: 15, 15.10, 15.10.16, 15-mysql-tomcat, 15.10-mysql-tomcat, 15.10.16-mysql-tomcat
-Architectures: amd64, arm64v8
-Directory: 15/mysql-tomcat
-GitCommit: fab7d75641c1be35a39ce4895178946a16a14f9b
-
-Tags: 15-postgres-tomcat, 15.10-postgres-tomcat, 15.10.16-postgres-tomcat
-Architectures: amd64, arm64v8
-Directory: 15/postgres-tomcat
-GitCommit: fab7d75641c1be35a39ce4895178946a16a14f9b
-
-Tags: 15-mariadb-tomcat, 15.10-mariadb-tomcat, 15.10.16-mariadb-tomcat
-Architectures: amd64, arm64v8
-Directory: 15/mariadb-tomcat
-GitCommit: fab7d75641c1be35a39ce4895178946a16a14f9b
-
-# Mid-year "LTS" (done by XWiki SAS developers and not official). To be removed when the next official LTS is released.
-Tags: 16.4, 16.4.6, 16.4-mysql-tomcat, 16.4.6-mysql-tomcat
-Architectures: amd64, arm64v8
-Directory: 16.4/mysql-tomcat
-GitCommit: 5057e7a60d9f378812ed95095c7f7217a465af01
-
-Tags: 16.4-postgres-tomcat, 16.4.6-postgres-tomcat
-Architectures: amd64, arm64v8
-Directory: 16.4/postgres-tomcat
-GitCommit: 5057e7a60d9f378812ed95095c7f7217a465af01
-
-Tags: 16.4-mariadb-tomcat, 16.4.6-mariadb-tomcat
-Architectures: amd64, arm64v8
-Directory: 16.4/mariadb-tomcat
-GitCommit: 5057e7a60d9f378812ed95095c7f7217a465af01
-
-# Still maintained 14.10.x branch (by some XWiki SAS developers and not official).
-Tags: 14, 14.10, 14.10.21, 14-mysql-tomcat, 14.10-mysql-tomcat, 14.10.21-mysql-tomcat
-Architectures: amd64, arm64v8
-Directory: 14/mysql-tomcat
-GitCommit: ffbda2123e322160254f342751bce9b978412e5f
-
-Tags: 14-postgres-tomcat, 14.10-postgres-tomcat, 14.10.21-postgres-tomcat
-Architectures: amd64, arm64v8
-Directory: 14/postgres-tomcat
-GitCommit: ffbda2123e322160254f342751bce9b978412e5f
-
-Tags: 14-mariadb-tomcat, 14.10-mariadb-tomcat, 14.10.21-mariadb-tomcat
-Architectures: amd64, arm64v8
-Directory: 14/mariadb-tomcat
-GitCommit: ffbda2123e322160254f342751bce9b978412e5f
+GitCommit: 6a1adf447819ae22156427e3468d1820110cdfb5

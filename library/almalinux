@@ -1,55 +1,73 @@
-# This file was generated on https://github.com/AlmaLinux/container-images/actions/runs/11899782931
+# This file was generated on https://github.com/AlmaLinux/container-images/actions/runs/15591315233
 Maintainers: The AlmaLinux OS Foundation <cloud-infra@almalinux.org> (@AlmaLinux)
 GitRepo: https://github.com/AlmaLinux/container-images.git
 
-Tags: 10-kitten, 10-kitten-20241024
+Tags: 10-kitten, 10-kitten-20250611
 GitFetch: refs/heads/10-kitten
-GitCommit: a1cecc826bfdd29e027ffdbfb73793cd64afe3f3
+GitCommit: 6135d73e0784e8ca6ca279d509e095e0daf5b6a9
 amd64-Directory: default/amd64/
 arm64v8-Directory: default/arm64/
 ppc64le-Directory: default/ppc64le/
 s390x-Directory: default/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: 10-kitten-minimal, 10-kitten-minimal-20241024
+Tags: 10-kitten-minimal, 10-kitten-minimal-20250611
 GitFetch: refs/heads/10-kitten
-GitCommit: a1cecc826bfdd29e027ffdbfb73793cd64afe3f3
+GitCommit: 6135d73e0784e8ca6ca279d509e095e0daf5b6a9
 amd64-Directory: minimal/amd64/
 arm64v8-Directory: minimal/arm64/
 ppc64le-Directory: minimal/ppc64le/
 s390x-Directory: minimal/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: 8, 8.10, 8.10-20240923
-GitFetch: refs/heads/8
-GitCommit: 9220c28666f44af82172cba59a3ddc30fbae1cb7
+Tags: 10, 10.0, 10.0-20250611
+GitFetch: refs/heads/10
+GitCommit: 053340d6a579e7c6242951931f3a1b18717887ef
 amd64-Directory: default/amd64/
 arm64v8-Directory: default/arm64/
 ppc64le-Directory: default/ppc64le/
 s390x-Directory: default/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: 8-minimal, 8.10-minimal, 8.10-minimal-20240923
-GitFetch: refs/heads/8
-GitCommit: 9220c28666f44af82172cba59a3ddc30fbae1cb7
+Tags: 10-minimal, 10.0-minimal, 10.0-minimal-20250611
+GitFetch: refs/heads/10
+GitCommit: 053340d6a579e7c6242951931f3a1b18717887ef
 amd64-Directory: minimal/amd64/
 arm64v8-Directory: minimal/arm64/
 ppc64le-Directory: minimal/ppc64le/
 s390x-Directory: minimal/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: latest, 9, 9.5, 9.5-20241118
-GitFetch: refs/heads/9
-GitCommit: 77b627bf5868945d5ae46e65af84a2de13a7319a
+Tags: 8, 8.10, 8.10-20250611
+GitFetch: refs/heads/8
+GitCommit: 5e437611704aff1c6eb7c81a2b097fae4f0bcaae
 amd64-Directory: default/amd64/
 arm64v8-Directory: default/arm64/
 ppc64le-Directory: default/ppc64le/
 s390x-Directory: default/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: minimal, 9-minimal, 9.5-minimal, 9.5-minimal-20241118
+Tags: 8-minimal, 8.10-minimal, 8.10-minimal-20250611
+GitFetch: refs/heads/8
+GitCommit: 5e437611704aff1c6eb7c81a2b097fae4f0bcaae
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
+Architectures: amd64, arm64v8, ppc64le, s390x
+
+Tags: latest, 9, 9.6, 9.6-20250611
 GitFetch: refs/heads/9
-GitCommit: 77b627bf5868945d5ae46e65af84a2de13a7319a
+GitCommit: 39a9e4c8fa6266f1d58af9ba922e635694eeb380
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
+Architectures: amd64, arm64v8, ppc64le, s390x
+
+Tags: minimal, 9-minimal, 9.6-minimal, 9.6-minimal-20250611
+GitFetch: refs/heads/9
+GitCommit: 39a9e4c8fa6266f1d58af9ba922e635694eeb380
 amd64-Directory: minimal/amd64/
 arm64v8-Directory: minimal/arm64/
 ppc64le-Directory: minimal/ppc64le/
